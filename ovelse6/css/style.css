@@ -32,8 +32,12 @@ header section {
    Navigasjonsfeltet får lys grå bakgrunn og jevn padding.
 ----------------------------------------------------- */
 nav {
-    background-color: #1e4772;
+    background-color: #d4d0c9;
     padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+    
 }
 
 /* -----------------------------------------------------
@@ -45,12 +49,12 @@ nav {
    - Svart tekstfarge for kontrast
 ----------------------------------------------------- */
 nav #logo {
-    font-size: 25px;
+    font-size: 40px;
     margin-bottom: 1rem;
     font-weight: 900;
     letter-spacing: -5px;
     text-decoration: none;
-    color: #FFFFFF;
+    color: #000000;
 }
 
 /* -----------------------------------------------------
@@ -75,7 +79,7 @@ nav ul li a {
     padding: 0.5rem 1rem;
     display: inline-block;
     text-decoration: none;
-    color: #FFFFFF;
+    color: #000000;
 }
 
 /* -----------------------------------------------------
@@ -83,9 +87,14 @@ nav ul li a {
    for visuell variasjon.
 ----------------------------------------------------- */
 main section:nth-child(odd) {
-    background-color: #ffffff;
-    color: #fff;
+    background-color: #1e4772;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    
 }
+
 
 /* -----------------------------------------------------
    Indre seksjoner i main får horisontal padding
@@ -93,6 +102,10 @@ main section:nth-child(odd) {
 ----------------------------------------------------- */
 main section section {
     padding: 0rem 3rem;
+    margin: 0rem;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 /* -----------------------------------------------------
@@ -106,7 +119,7 @@ main section section {
     border: 1px solid #fff;
     color: #fff;
     text-decoration: none;
-    margin: 1rem 0;
+    
 }
 
 /* -----------------------------------------------------
@@ -125,6 +138,7 @@ main section section {
 #tjenester article {
     background-color: #efefef;
     padding: 2rem;
+    margin: 2rem;
 }
 
 /* -----------------------------------------------------
