@@ -91,7 +91,8 @@ main section:nth-child(odd) {
     color: #FFFFFF;
     display: flex;
     flex-direction: column;
-    padding: 2rem;
+    padding-bottom: 2rem;
+    align-items: center;
     
 }
 
@@ -102,10 +103,25 @@ main section:nth-child(odd) {
 ----------------------------------------------------- */
 main section section {
     padding: 0rem 3rem;
-    margin: 0rem;
-    display: flex;
-    flex-direction: column;
+   
     
+}
+
+#change-order{
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column-reverse;
+   justify-content: center;
+   align-content: center;
+}
+
+.figure {
+   display: flex;
+   flex-wrap: wrap;
+   margin: 0;
+
+
+
 }
 
 /* -----------------------------------------------------
@@ -115,10 +131,14 @@ main section section {
    - Ingen understreking
 ----------------------------------------------------- */
 .btn {
-    padding: 1rem;
-    border: 1px solid #fff;
-    color: #fff;
-    text-decoration: none;
+   
+      padding: 1rem;
+      border: 1px solid #fff;
+      color: #fff;
+      text-decoration: none;
+      margin: 1rem 0;
+      display: flex;
+      flex-wrap: wrap;
     
 }
 
@@ -148,6 +168,8 @@ main section section {
 #tjenester #booking {
     background-color: #1e4772;
     color: #fff;
+    display: flex;
+    flex-direction: column;
 }
 
 /* -----------------------------------------------------
