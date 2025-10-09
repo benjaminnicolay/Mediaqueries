@@ -261,3 +261,46 @@ h2 {
 #some i {
     font-size: 40px;
 }
+
+@media only screen and (min-width: 680px){
+
+
+nav{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   padding: 2rem;
+}
+
+nav #logo{
+   display: flex;
+   align-self: baseline;
+   font-size: 35px
+}
+
+nav ul{
+   display: flex;
+   flex-direction: row;
+}
+
+main section:nth-child(odd){
+   display: flex;
+   flex-direction: row;
+}
+
+#change-order{
+   display: flex;
+   flex-direction: column-reverse;
+   align-self: flex-start;
+   
+   
+}
+
+.figure{
+   display: flex;
+   align-self: flex-end;
+
+}
+
+}
+
